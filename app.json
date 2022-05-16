@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "window": {
+    "defaultTitle": "Broke Meter",
+    "titleBarColor": "#59B057",
+    "titleTextColor":"#000000"
+  }
+}

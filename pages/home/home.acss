@@ -1,0 +1,92 @@
+
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100vh;
+  align-items:center;
+  color:#FFF;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border:5px solid #F5D157;
+  box-shadow: 10px 10px 8px rgb(173, 148, 63);
+  width:80%;
+  padding:10px;
+  margin:10rpx 10rpx;
+  border-radius: 5px;
+}
+
+.content-description{
+  text-align:center;
+}
+
+.total-amount{
+  font-size:3em;
+
+}
+
+
+.app-header{
+  color:#FFF;
+  display:flex;
+  flex-direction: column;
+  padding:10px;
+}
+
+.app-description{
+  padding: 10px;
+  text-align:center;
+}
+
+.button{
+  padding:10px;
+  border-radius: 5px;;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.button-primary{
+  background: #6FAE61;
+}
+
+.button-info{
+  background: #438EF7;
+}
+.button-danger{
+  background: #E85242;
+}
+.button-warning{
+  background: #EFD36B;
+}
+
+.actions{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+
+.logo {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  background-color: #FFF;
+  align-self: center;
+  padding: 10px;
+}
+
+.title {
+  padding-top: 40rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 900;
+  
+}
+

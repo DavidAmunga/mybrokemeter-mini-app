@@ -1,0 +1,25 @@
+
+<view class="app">
+
+  <view class="app-header">
+    <image class="logo" src="{{'../../assets/logo.svg'}}" background-size="cover"></image>
+    <view class="title">My BrokeMeter</view>
+    <text class="app-description">Know how close you are to KES 0</text>
+  </view>
+
+  <view class="content">
+    <text class="content-description">You are</text>
+    <text class="total-amount">KES 200,000</text>
+    <text class="content-description">from KES 0. On average it will take you</text>
+    <text class="total-amount">5 Days </text>
+    <text class="content-desription">to be broke if you spend KES 40,000 each day </text>
+  </view>  
+
+<view class="actions">
+ <view class="button button-info">Set Broke Level</view>
+ <view class="button button-danger">Set Alert Amount</view>
+</view>
+ 
+
+
+</view>
